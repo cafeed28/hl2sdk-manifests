@@ -2,7 +2,7 @@
     "name": "deadlock",
     "env_var": "HL2SDKDEADLOCK",
     "extension": "2.deadlock",
-    "code": 27,
+    "code": 28,
     "define": "DEADLOCK",
     "platforms": {
         "windows": [
@@ -15,6 +15,7 @@
         "public",
         "public/engine",
         "public/mathlib",
+        "public/vstdlib",
         "public/tier0",
         "public/tier1",
         "public/entity2",

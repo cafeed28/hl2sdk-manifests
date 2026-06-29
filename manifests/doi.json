@@ -2,7 +2,7 @@
     "name": "doi",
     "env_var": "HL2SDKDOI",
     "extension": "2.doi",
-    "code": 21,
+    "code": 22,
     "define": "DOI",
     "steam": {
         "app_id": 462310

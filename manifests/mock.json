@@ -2,7 +2,7 @@
     "name": "mock",
     "env_var": "HL2SDK-MOCK",
     "extension": "2.mock",
-    "code": 26,
+    "code": 27,
     "define": "MOCK",
     "platforms": {
         "windows": [

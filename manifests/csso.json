@@ -1,16 +1,15 @@
 {
-    "name": "contagion",
-    "env_var": "HL2SDKCONTAGION",
-    "extension": "2.contagion",
-    "code": 16,
-    "define": "CONTAGION",
+    "name": "csso",
+    "env_var": "HL2SDKCSSO",
+    "extension": "2.csso",
+    "code": 13,
+    "define": "CSSO",
     "steam": {
-        "app_id": 238430,
-        "login_required": true
+        "app_id": 232250
     },
     "platforms": {
         "windows": [
-            "x86"
+            "x86_64"
         ]
     },
     "source2": false,
@@ -27,12 +26,12 @@
         "common"
     ],
     "windows": {
-        "x86": {
+        "x86_64": {
             "libs": [
-                "lib/public/mathlib.lib",
-                "lib/public/tier0.lib",
-                "lib/public/tier1.lib",
-                "lib/public/vstdlib.lib"
+                "lib/public/win64/mathlib.lib",
+                "lib/public/win64/tier0.lib",
+                "lib/public/win64/tier1.lib",
+                "lib/public/win64/vstdlib.lib"
             ]
         }
     }
