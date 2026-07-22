@@ -205,7 +205,7 @@ class SdkHelpers(object):
         cxx.defines += ['SOURCE_ENGINE={}'.format(sdk['code'])]
         cxx.defines += ['GAME_DLL', 'RAD_TELEMETRY_DISABLED']
 
-        if sdk['name'] in ['sdk2013', 'bms', 'pvkii', 'tf2', 'css', 'dods', 'hl2dm'] and cxx.like('gcc'):
+        if sdk['name'] in ['sdk2013', 'bms', 'pvkii', 'tf2', 'css', 'dods', 'hl2dm', 'l4d2'] and cxx.like('gcc'):
             # The 2013 SDK already has these in public/tier0/basetypes.h
             rm_defines = [
                 'stricmp=strcasecmp', '_stricmp=strcasecmp',
