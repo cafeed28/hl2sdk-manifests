@@ -13,9 +13,6 @@
         ],
         "linux": [
             "x86"
-        ],
-        "mac": [
-            "x86"
         ]
     },
     "source2": false,
@@ -37,6 +34,12 @@
             "NO_MALLOC_OVERRIDE"
         ],
         "x86": {
+            "cflags": [
+                "-march=pentium4",
+                "-march=core2",
+                "-msse2",
+                "-mfpmath=sse"
+            ],
             "postlink_libs": [
                 "lib/linux/mathlib_i486.a",
                 "lib/linux/tier1_i486.a"
@@ -47,23 +50,6 @@
             ]
         },
         "uses_system_cxxlib": false
-    },
-    "mac": {
-        "defines": [
-            "NO_HOOK_MALLOC",
-            "NO_MALLOC_OVERRIDE"
-        ],
-        "x86": {
-            "postlink_libs": [
-                "lib/mac/mathlib_i486.a",
-                "lib/mac/tier1_i486.a"
-            ],
-            "dynamic_libs": [
-                "lib/mac/libtier0.dylib",
-                "lib/mac/libvstdlib.dylib"
-            ]
-        },
-        "cxxlib": "c++"
     },
     "windows": {
         "x86": {
