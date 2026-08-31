@@ -9,6 +9,7 @@
     },
     "platforms": {
         "windows": [
+            "x86",
             "x86_64"
         ]
     },
@@ -26,6 +27,14 @@
         "common"
     ],
     "windows": {
+        "x86": {
+            "libs": [
+                "lib/public/win32/mathlib.lib",
+                "lib/public/win32/tier0.lib",
+                "lib/public/win32/tier1.lib",
+                "lib/public/win32/vstdlib.lib"
+            ]
+        },
         "x86_64": {
             "libs": [
                 "lib/public/win64/mathlib.lib",
